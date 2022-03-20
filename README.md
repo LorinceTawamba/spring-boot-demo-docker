@@ -30,7 +30,11 @@ The simple Spring Boot application using Docker
 #### List the docker image
 
 ```http
-  docker images     ou     docker image ls
+  docker image ls
+```
+
+```http
+  docker image ls
 ```
 
 #### Run two instances of the docker image 

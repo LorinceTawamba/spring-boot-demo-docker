@@ -30,7 +30,7 @@ The simple Spring Boot application using Docker
 #### List the docker image
 
 ```http
-  docker image ls
+  docker images 
 ```
 
 ```http

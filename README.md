@@ -60,7 +60,7 @@ The simple Spring Boot application using Docker
 
 ## Authors
 
-* **TAWAMBA KOUAKAM Lorince** _alias_ [@LorinceTawamba](https://github.com/LorinceTawamba)
+* **TAWAMBA KOUAKAM Lorince S.** _alias_ [@LorinceTawamba](https://github.com/LorinceTawamba)
 
 Read the list of [contributors](https://github.com/LorinceTawamba/spring-boot-demo-docker/contributors) to see who helped with the project !
 

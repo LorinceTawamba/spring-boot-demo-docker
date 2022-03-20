@@ -58,19 +58,31 @@ The simple Spring Boot application using Docker
 #### Get information
 
 ```http
-  GET /api/v1/appli/info
+  http:localhost:8585/api/v1/appli/info
+```
+
+```http
+  http:localhost:8181/api/v1/appli/info
 ```
 
 #### Get current version
 
 ```http
-  GET /api/v1/appli/version
+  http:localhost:8585/api/v1/appli/version
+```
+
+```http
+  http:localhost:8181/api/v1/appli/version
 ```
 
 #### Get message 
 
 ```http
-  GET /api/v1/appli/message
+  http:localhost:8585/api/v1/appli/message
+```
+
+```http
+  http:localhost:8181/api/v1/appli/message
 ```
 
 ## Authors

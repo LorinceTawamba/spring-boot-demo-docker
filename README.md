@@ -1,24 +1,19 @@
-# Simple Spring Boot Docker Application
+# Spring Boot Demo Docker Application
 
 The simple Spring Boot application using Docker
-
-## Status
-
-[![build](https://github.com/geekymon2/carmarketplace-car-info-svc/actions/workflows/build.yml/badge.svg)](https://github.com/geekymon2/carmarketplace-car-info-svc/actions/workflows/build.yml) &nbsp;&nbsp; [![codecov](https://codecov.io/gh/geekymon2/carmarketplace-car-info-svc/branch/main/graph/badge.svg?token=LH7ATDIHTB)](https://codecov.io/gh/geekymon2/carmarketplace-car-info-svc) &nbsp;&nbsp; ![Docker Image Version (latest by date)](https://img.shields.io/docker/v/geekymon2/cm-car-info-svc) &nbsp;&nbsp; ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/geekymon2/cm-car-info-svc)
-
 
 ## Made with
 
 * [Java 8](https://www.java.com/fr/download/) - JDK 8
-* [Spring initializr](https://start.spring.io/) - 2.6.0
-* [IntelliJ IDEA Utlimate](https://www.jetbrains.com/fr-fr/idea/) - Edition 2021.2.2
-* [Docker](https://www.docker.com/) - version 20.10.10
+* [Spring initializr](https://start.spring.io/) - 2.6.4
+* [IntelliJ IDEA Utlimate](https://www.jetbrains.com/fr-fr/idea/) - IntelliJ IDEA 2021.2.3 (Ultimate Edition)
+* [Docker](https://www.docker.com/) - version 20.10.12
 
 ## Versions
 
 - **Dernière version stable :** 1.0.0
-- **Dernière version :** 1.0.1
-  The list of versions : [Click to display](https://github.com/lorince-tawamba/spring-boot-demo-docker/tags)
+- **Dernière version :** 1.0.0
+  The list of versions : [Click to display](https://github.com/LorinceTawamba/spring-boot-demo-docker/tags)
 
 ## About this Service
 
@@ -34,19 +29,18 @@ The simple Spring Boot application using Docker
 
 You’ll have to do this for both application. After this command executes, you’ll see the jar file available in the target folder. The file names will be:
 
-- simple-spring-boot-demo-docker-1.0.1
-- simple-spring-boot-demo-docker-1.0.1
+- spring-boot-demo-docker-1.0.0
 
 **Create the docker image**
 
 ```bash
-  docker build -t simple-spring-boot-demo-docker:1.0.1 .
+  docker build -t spring-boot-demo-docker:1.0.0 .
 ```
 
 **Start the docker container**
 
 ```bash
-  docker run -d -p 8080:8585 -t simple-spring-boot-demo-docker:1.0.1
+  docker run -d -p 8080:8585 -t spring-boot-demo-docker:1.0.0
 ```
 
 ## API Reference
@@ -63,11 +57,17 @@ You’ll have to do this for both application. After this command executes, you�
   GET /api/v1/appli/version
 ```
 
+#### Get message 
+
+```http
+  GET /api/v1/appli/message
+```
+
 ## Authors
 
-* **Lorince TAWAMBA** _alias_ [@lorince-tawamba](https://github.com/lorince-tawamba)
+* **TAWAMBA KOUAKAM Lorince** _alias_ [@LorinceTawamba](https://github.com/LorinceTawamba)
 
-Read the list of [contributors](https://github.com/lorince-tawamba/spring-boot-demo-docker/contributors) to see who helped with the project !
+Read the list of [contributors](https://github.com/LorinceTawamba/spring-boot-demo-docker/contributors) to see who helped with the project !
 
 ## Documentation
 

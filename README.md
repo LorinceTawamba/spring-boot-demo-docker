@@ -21,20 +21,31 @@ The simple Spring Boot application using Docker
 
 ## Deployment
 
-```bash
+#### Create the docker image 
+
+```http
   docker build -t lorincetawamba/spring-boot-demo-docker:1.0.0 -f Dockerfile .
 ```
 
-```bash
+#### List the docker image
+
+```http
   docker images     ou     docker image ls
 ```
 
-```bash
+#### Run two instances of the docker image 
+
+```http
   docker run -d -p 8585:8080 -t lorincetawamba/spring-boot-demo-docker:1.0.0 
+```
+
+```http
   docker run -d -p 8181:8080 -t lorincetawamba/spring-boot-demo-docker:1.0.0
 ```
 
-```bash
+#### List the docker container 
+
+```http
   docker container ls
 ```
 

@@ -21,26 +21,21 @@ The simple Spring Boot application using Docker
 
 ## Deployment
 
-**Create the Packages (Jar files)**
-
 ```bash
-  mvn clean install
+  docker build -t lorincetawamba/spring-boot-demo-docker:1.0.0 -f Dockerfile .
 ```
 
-You’ll have to do this for both application. After this command executes, you’ll see the jar file available in the target folder. The file names will be:
-
-- spring-boot-demo-docker-1.0.0
-
-**Create the docker image**
-
 ```bash
-  docker build -t spring-boot-demo-docker:1.0.0 .
+  docker images     ou     docker image ls
 ```
 
-**Start the docker container**
+```bash
+  docker run -d -p 8585:8080 -t lorincetawamba/spring-boot-demo-docker:1.0.0 
+  docker run -d -p 8181:8080 -t lorincetawamba/spring-boot-demo-docker:1.0.0
+```
 
 ```bash
-  docker run -d -p 8080:8585 -t spring-boot-demo-docker:1.0.0
+  docker container ls
 ```
 
 ## API Reference
